@@ -86,3 +86,23 @@ button{
     font-size: 15px;
     text-align: center;
 }
+
+.main-text{
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    border: 2px solid red;
+}
+
+.text1{
+    border: 2px solid blue;
+}
