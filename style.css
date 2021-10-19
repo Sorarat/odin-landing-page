@@ -5,6 +5,8 @@
     color: #FFF;
     display: flex;
     justify-content: space-between;
+    padding:0;
+    margin:0;
 }
 
 .header-logo{
@@ -30,4 +32,57 @@ ul{
     align-items: center;
     gap: 16px;
     margin-right: 105px;
+}
+
+.intro{
+    background-color: #1F2937;
+    padding:0;
+    margin:0;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.left-col{
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    margin-left: 85px;
+    flex-wrap: wrap;
+    width: 450px;
+}
+
+.right-col{
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+
+}
+
+.welcome-mes{
+    font-weight: bold;
+    font-size: 48px;
+    color: #F9FAF8;
+    display: flex;
+    align-items: center;
+}
+
+.subtext{
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    align-items: center;
+}
+
+button{
+    background-color: #3882F6 ;
+    color: white;
+    padding: 15px;
+    border-radius: 12%;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
 }
