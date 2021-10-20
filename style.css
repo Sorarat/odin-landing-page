@@ -1,5 +1,10 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,300&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+}
 .header{
     background-color: #1F2937;
     color: #FFF;
@@ -98,7 +103,7 @@ button.signup{
 .main-text-header{
     color: #1F2937;
     font-weight: bold;
-    font-size: 36px;s
+    font-size: 36px;
 }
 
 .img-container{
@@ -147,7 +152,7 @@ button.signup{
 }
 
 .quote-text{
-   font-size: 20px;
+   font-size: 26px;
    font-style: italic;
    color: #1F2937;
    border: 2px solid red;
@@ -156,6 +161,7 @@ button.signup{
    align-items: center;
    margin: 50px 100px 0px 280px;
    width: 800px;
+   font-weight:lighter;
 
 }
 
@@ -167,5 +173,49 @@ button.signup{
     margin: 0px 100px 10px 280px;
     width: 800px;
     color: #1F2937;
-    font-weight: bold;
+    font-weight: bolder;
 }
+
+
+.call-to-action{
+    background-color: #FFF;
+    margin-top: 35px;
+}
+
+.call-to-action-container{
+    border: 2px solid green;
+    margin-top: 45px;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 290px 10px 290px;
+    color: #FFF;
+    border-radius: 9px;
+
+
+}
+
+.call-to-action-left{
+    border: 3px solid brown;
+
+}
+.call-to-action-right{
+    border: 3px solid black;
+}
+
+button.call-to-action{
+    background-color: #3882F6;
+    border-color: white;
+    border-radius: 8px;
+    padding: 10px 25px 10px 25px;
+    display: flex;
+    color: white;
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.call-to-action-header{
+    font-weight: 700;
+    font-size: 20px;
+}
+
